@@ -38,7 +38,7 @@ Cost-freemium with monthly compute limitations
 
 Now take these models and let them perform some tasks and rate them on a scale of 1-8:
 ### Performance Comparison
-Task1- Testing1 General Knowledge base 
+### Task1- Testing1 General Knowledge base 
 Input:
 what is sustainability and environment?
 
@@ -63,7 +63,7 @@ Score: ChatGPT3 -6
        ChatGPT  -5
        Flan-T5  -4
 
-Task2- Testing2 General Knowledge base 
+### Task2- Testing2 General Knowledge base 
 Input:
 Answer the following question by reasoning step by step. Can you provide some practical ways that individuals and communities can help protect the environment? Please list at least five actionable steps that can be taken to reduce waste, conserve resources, and promote sustainability. These suggestions should be easy to implement and effective in making a positive impact on the environment  
 
@@ -114,7 +114,7 @@ Score: ChatGPT3 -7
 
 
 
-Task3-Fact Extraction
+### Task3-Fact Extraction
 Input:
 Please answer the question:
 
@@ -158,13 +158,7 @@ Now taking the mean of the results of the test
               ChatGPT  -4.6
               Flan-T5  -3
 
-
-
-
-
-
-
-Justification for Choice
+### Justification for Choice
 Based on the brief test ChatGpt3 has a clear advantage over the other LLMs 
 •	It is easily accessible
 •	It is trained on large parameters
