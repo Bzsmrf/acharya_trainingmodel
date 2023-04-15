@@ -159,7 +159,7 @@ Now taking the mean of the results of the test
 
 ### Justification for Choice
 Based on the brief test ChatGpt3 has a clear advantage over the other LLMs 
-•	It is easily accessible
-•	It is trained on large parameters
-•	GLUE Score is at par or higher than other LLMs
+- It is easily accessible
+- It is trained on large parameters
+- GLUE Score is at par or higher than other LLMs
 
