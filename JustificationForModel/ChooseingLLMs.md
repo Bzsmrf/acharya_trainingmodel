@@ -53,7 +53,9 @@ Params: {'repo_id': 'google/flan-t5-xxl', 'task': None, 'model_kwargs': {'temper
 Sustainability is the ability of an organism or system to continue to exist indefinitely in the face of a changing environment. The environment is the natural world in which organisms live. Sustainability is the ability of an organism or system to continue to exist in the face of a changing environment.
 <br>
 Score: ChatGPT3 -6
+<br>
        ChatGPT  -5
+<br>       
        Flan-T5  -4
 
 ### Task2- Testing2 General Knowledge base 
@@ -101,7 +103,9 @@ Params: {'repo_id': 'google/flan-t5-xxl', 'task': None, 'model_kwargs': {'temper
 Individuals can reduce waste by reducing the amount of paper they use. Communities can reduce waste by reducing the amount of water they use. Individuals can promote sustainability by promoting the use of renewable resources.
 <br>
 Score: ChatGPT3 -7
+<br>
        ChatGPT  -5
+<br>
        Flan-T5  -3
 
 
@@ -144,13 +148,17 @@ Params: {'repo_id': 'google/flan-t5-xxl', 'task': None, 'model_kwargs': {'temper
 development that meets the needs of the present, without compromising the ability of future generations to meet their own needs
 <br>
 Score: ChatGPT3 -6
+<br>
        ChatGPT  -4
+<br>       
        Flan-T5  -2
 
 Now taking the mean of the results of the test
 <br>
  Final Score: ChatGPT3 -6.3
+ <br>
               ChatGPT  -4.6
+ <br>             
               Flan-T5  -3
 
 ### Justification for Choice
