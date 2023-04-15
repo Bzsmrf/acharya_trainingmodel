@@ -29,6 +29,7 @@ Step 2:
 <br>
 
 Step 3:
+
 <br>
 
 - Install [langchain](https://python.langchain.com/en/latest/getting_started/getting_started.html)
@@ -42,6 +43,7 @@ conda install langchain -c conda-forge
 ```
 <br>
 Step 4:
+
 
 <br>
 
@@ -61,6 +63,7 @@ pip install PyPDF2
 <br>
 Step 6:
 
+
 <br>
 
 - Install [faiss-cpu](https://faiss.ai/)
@@ -72,6 +75,7 @@ conda install -c pytorch faiss-cpu
 <br>
 Step 7:
 
+
 <br>
 
 - Install tiktoken
@@ -81,6 +85,7 @@ pip install tiktoken
 
 <br>
 Step 8:
+
 
 <br>
 
@@ -116,7 +121,7 @@ Before going to a solution, we need to understand the limitations:
 
 ### The architecture of the model
  
-![](/Users/Lenovo/OneDrive/Desktop/Arch.png)     
+![](https://github.com/Bzsmrf/Summerize/blob/master/Arch.png)     
 
 ### Usage
 The combination of summarization and question-answering capabilities of the application can have a variety of useful applications across different fields some examples are:
