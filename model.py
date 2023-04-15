@@ -55,7 +55,7 @@ def main():
 
     col1, col2, col3 = st.columns(3)
 
-    if col2.button('Submit'):
+   if col2.button('Submit') and (uploaded_file is not None or temp_data!="data : ") :
         embeddings = OpenAIEmbeddings()
         docsearch = FAISS.from_texts(texts, embeddings)
         chain = load_qa_chain(OpenAI(), chain_type="stuff")
