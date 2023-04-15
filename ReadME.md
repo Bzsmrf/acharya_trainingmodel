@@ -119,7 +119,7 @@ Before going to a solution, we need to understand the limitations:
 •	For this issue I made the LLMs access to the **knowledge base** of the model only to return output and if some terminology is asked it will reply based on the knowledge base provided. 
 
 
-### The architecture of the model
+### The Architecture of the model
  
 ![](https://github.com/Bzsmrf/Summerize/blob/master/Arch.png)     
 
