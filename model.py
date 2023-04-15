@@ -52,13 +52,13 @@ query += st.text_area('Query on Data',placeholder="Enter Your Query")
 col1,col2,col3=st.columns(3)
 if col2.button('Submit'):
     embeddings = OpenAIEmbeddings()
-    docsearch = FAISS.from_texts(texts, embeddings)
+    docsearch = Weaviate.from_texts(texts, embeddings)
     chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
     docs = docsearch.similarity_search(query)  
     summry=docsearch.similarity_search(" ")  
-    txt=chain.run(input_documents=summry, question="Summerize in points within 150 words")
-    st.write('Summery :', txt)
+    # txt=chain.run(input_documents=summry, question="Summerize in points within 150 words")
+    # st.write('Summery :', txt)
     if(query!="query : "):
         txt=chain.run(input_documents=docs, question=query)
         st.write('Output :', txt)
