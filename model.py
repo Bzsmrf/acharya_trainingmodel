@@ -60,7 +60,7 @@ def main():
         docsearch = FAISS.from_texts(texts, embeddings)
         chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
-        if 'summry' not in st.session_state:  # Check if summary is already computed
+        if 'summry' not in st.session_state or  query == "query : ":  # Check if summary is already computed  # Check if summary is already computed
             # Call summarize_text() function
             st.session_state['summry'] = summarize_text(texts, docsearch, chain)
             st.write('Summary:', st.session_state['summry'])
