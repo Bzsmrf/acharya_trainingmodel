@@ -1,6 +1,6 @@
 
 
-### Get started 
+### [Get started](https://bzsmrf.github.io/Summerize/) 
 
 This is a web app to **Summarize long text documents** and **Ask question** on that document. 
 
