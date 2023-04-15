@@ -18,7 +18,7 @@ Technologies used to built are:
 Step 1:
 
 - Open your command prompt/bash.
-- Fork The Github [Repository](https://github.com/singhjaspreetb/Summerization-LLM).
+- Fork The Github [Repository](https://github.com/Bzsmrf/Summerize).
 - Clone the repo from your repository use Command `git clone` repo link.
 <br>
 
