@@ -2,7 +2,7 @@ import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import pinecone
+from langchain.vectorstores import Pinecone
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 import os
@@ -57,7 +57,7 @@ def main():
 
     if col2.button('Submit'):
         embeddings = OpenAIEmbeddings()
-        docsearch = pinecone.from_texts(texts, embeddings)
+        docsearch = Pinecone.from_texts(texts, embeddings)
         chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
         if 'summry' not in st.session_state:  # Check if summary is already computed
