@@ -4,19 +4,12 @@
 This report will justify my choice of a language model for Text Summarization. After conducting research on several available models, I have chosen chat-gpt 3.5 turbo for the following reasons:
 ### Leading LLMs 
 According to Data + Ai Summit 2022 by Databricks a leading contributor in the field of Data Science and creator of Apache Spark. There are a lot of LLMs the leading LLMs on the Glue score benchmark are 
- 
+![](https://github.com/Bzsmrf/Summerize/blob/master/JustificationForModel/fig1.png) 
 Now, Recently in 2023, the leading LLMs are from the article published on dataconomy.com  “The role of LLMs in Ai war” is
  
 Here the benchmark was on the Size of parameters and Training Tokens
 We can see that Chat-gpt3 and LaMDA models like(BERT, and BARD) are the leading ones based on GLUE score.
-
-
-
-
-
-
-
-
+![](https://github.com/Bzsmrf/Summerize/blob/master/JustificationForModel/fig%202.png)
 ### Comparison of Language Models
 Open Ai models
 Chat-gpt
@@ -58,10 +51,11 @@ Flan-t5 11B
 
 Params: {'repo_id': 'google/flan-t5-xxl', 'task': None, 'model_kwargs': {'temperature': 0.1, 'max_new_tokens': 200}}
 Sustainability is the ability of an organism or system to continue to exist indefinitely in the face of a changing environment. The environment is the natural world in which organisms live. Sustainability is the ability of an organism or system to continue to exist in the face of a changing environment.
-
-Score: ChatGPT3 -6
-       ChatGPT  -5
-       Flan-T5  -4
+<br>
+Score:<br> 
+ChatGPT3 -6<br>
+ChatGPT  -5       
+Flan-T5  -4
 
 ### Task2- Testing2 General Knowledge base 
 Input:
@@ -106,9 +100,11 @@ Flan-t5 11B
 
 Params: {'repo_id': 'google/flan-t5-xxl', 'task': None, 'model_kwargs': {'temperature': 0.1, 'max_new_tokens': 200}}
 Individuals can reduce waste by reducing the amount of paper they use. Communities can reduce waste by reducing the amount of water they use. Individuals can promote sustainability by promoting the use of renewable resources.
-Score: ChatGPT3 -7
-       ChatGPT  -5
-       Flan-T5  -3
+<br>
+Score:<br> 
+ChatGPT3 -7<br>
+ChatGPT  -5 <br>
+Flan-T5  -3
 
 
 
@@ -148,15 +144,18 @@ Flan-t5 11B
 
 Params: {'repo_id': 'google/flan-t5-xxl', 'task': None, 'model_kwargs': {'temperature': 0.1, 'max_new_tokens': 200}}
 development that meets the needs of the present, without compromising the ability of future generations to meet their own needs
-
-Score: ChatGPT3 -6
-       ChatGPT  -4
-       Flan-T5  -2
+<br>
+Score:<br>
+ChatGPT3 -6<br>
+ChatGPT  -4      
+Flan-T5  -2
 
 Now taking the mean of the results of the test
- Final Score: ChatGPT3 -6.3
-              ChatGPT  -4.6
-              Flan-T5  -3
+<br>
+ Final Score:<br>
+ ChatGPT3 -6.3<br>
+ ChatGPT  -4.6          
+ Flan-T5  -3
 
 ### Justification for Choice
 Based on the brief test ChatGpt3 has a clear advantage over the other LLMs 
