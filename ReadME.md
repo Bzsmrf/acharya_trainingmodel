@@ -33,10 +33,12 @@ Step 3:
 
 - Install [langchain](https://python.langchain.com/en/latest/getting_started/getting_started.html)
 <br>
+
 ```
 pip install langchain 
 #or
 conda install langchain -c conda-forge
+
 ```
 <br>
 Step 4:
