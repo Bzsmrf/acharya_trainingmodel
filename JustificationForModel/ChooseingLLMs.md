@@ -14,25 +14,41 @@ Now, Recently in 2023, the leading LLMs are from the article published on dataco
 We can see that Chat-gpt3 and LaMDA models like(BERT, and BARD) are the leading ones based on GLUE score and Size of parameters and Training Tokens.
 
 ### Comparison of Language Models
-Open Ai models
-Chat-gpt
-Accessibility-API available
-Cost-freemium with monthly compute limitations 
-Chat-gpt 3
-Accessibility-API available 
-Cost-freemium with monthly compute limitations 
-LaMDA models
-BARD 
-Accessibility-API is available but the long waitlist
-Cost-freemium with monthly compute limitations 
-Google/Flan models
-Flan-t5 11B model
-Accessibility-API available 
-Cost-freemium with monthly compute limitations 
+
+**Open Ai models**
+
+- **Chat-gpt** 
+ 
+  Accessibility-API available
+  
+  Cost-freemium with monthly compute limitations 
+
+- **Chat-gpt 3**
+ 
+  Accessibility-API available 
+  
+  Cost-freemium with monthly compute limitations 
+
+- **LaMDA models**
+  **BARD** 
+  
+  Accessibility-API is available but the long waitlist
+  
+  Cost-freemium with monthly compute limitations 
+
+- **Google/Flan models**
+
+  **Flan-t5 11B model**
+  
+  Accessibility-API available
+  
+  Cost-freemium with monthly compute limitations 
 
 
 
-Now take these models and let them perform some tasks and rate them on a scale of 1-8:
+***Now take these models and let them perform some tasks and rate them on a scale of 1-8:***
+
+
 ### Performance Comparison
 ### Task1- Testing1 General Knowledge base 
 Input:
