@@ -7,7 +7,7 @@ This is a web app to **Summarize long text documents** and **Ask question** on t
 Technologies used to built are: 
 <br>  
 - [Langchain](https://python.langchain.com/en/latest/index.html) framework<br>
-- [Pinecone](https://docs.pinecone.io/docs/overview) Vector Database<br> 
+- [FAISS](https://ai.facebook.com/tools/faiss/) Vector Database<br> 
 - [Steamlit](https://docs.streamlit.io/) framework.<br>
 - [OpenAi](https://platform.openai.com/docs/introduction) Api<br>
 
