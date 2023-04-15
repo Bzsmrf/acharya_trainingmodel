@@ -42,6 +42,7 @@ conda install langchain -c conda-forge
 ```
 <br>
 Step 4:
+
 <br>
 
 - Install [openai](https://platform.openai.com/docs/introduction)
@@ -50,6 +51,7 @@ pip install openai
 ```
 <br>
 Step 5:
+
 <br>
 
 - Install [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/user/installation.html)
@@ -58,6 +60,7 @@ pip install PyPDF2
 ```
 <br>
 Step 6:
+
 <br>
 
 - Install [faiss-cpu](https://faiss.ai/)
@@ -68,6 +71,7 @@ conda install -c pytorch faiss-cpu
 ```
 <br>
 Step 7:
+
 <br>
 
 - Install tiktoken
@@ -77,6 +81,7 @@ pip install tiktoken
 
 <br>
 Step 8:
+
 <br>
 
 - Install [streamlit](https://docs.streamlit.io/library/get-started/installation)
