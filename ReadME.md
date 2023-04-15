@@ -6,7 +6,6 @@ This is a web app to **Summarize long text documents** and **Ask question** on t
 <br> 
 Technologies used to built are: 
 <br>  
-
 - [Langchain](https://python.langchain.com/en/latest/index.html) framework<br>
 - [Pinecone](https://docs.pinecone.io/docs/overview) Vector Database<br> 
 - [Steamlit](https://docs.streamlit.io/) framework.<br>
