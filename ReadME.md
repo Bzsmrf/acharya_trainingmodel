@@ -127,9 +127,8 @@ Before going to a solution, we need to understand the limitations:
 The combination of summarization and question-answering capabilities of the application can have a variety of useful applications across different fields some examples are:
 
 - The model can be used to summarize any long documents and gives concise summary output. It can be in form of bullet points or in paragraphs.
-<br>
+
 - The model can be used as questions on the data previously stored or the recently given file which was stored in the knowledge base.
-<br>
 
 - Education: Students can use your tool to quickly summarize and comprehend long textbooks, research papers, or academic articles, and then test their understanding through the generated questions.
 
@@ -153,7 +152,7 @@ The combination of summarization and question-answering capabilities of the appl
 
 - Language limitations: LLMs may not always be able to accurately summarize or answer questions in languages other than English, which could limit the utility of the tool for non-English speakers.
 - Needs more processing power for faster response on longer documents
-<br>
+
 - Can be more Optimized in terms of fine-tuning and more Domain-specific knowledge can be fed to the model.
 
 ### Futher Improvements 
