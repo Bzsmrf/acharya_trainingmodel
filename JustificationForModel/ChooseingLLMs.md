@@ -6,10 +6,13 @@ This report will justify my choice of a language model for Text Summarization. A
 According to Data + Ai Summit 2022 by Databricks a leading contributor in the field of Data Science and creator of Apache Spark. There are a lot of LLMs the leading LLMs on the Glue score benchmark are 
 ![](https://github.com/Bzsmrf/Summerize/blob/master/JustificationForModel/fig1.png) 
 Now, Recently in 2023, the leading LLMs are from the article published on dataconomy.com  “The role of LLMs in Ai war” is
- 
-Here the benchmark was on the Size of parameters and Training Tokens
-We can see that Chat-gpt3 and LaMDA models like(BERT, and BARD) are the leading ones based on GLUE score.
+
 ![](https://github.com/Bzsmrf/Summerize/blob/master/JustificationForModel/fig%202.png)
+ 
+ Here the benchmark was on the Size of parameters and Training Tokens
+
+We can see that Chat-gpt3 and LaMDA models like(BERT, and BARD) are the leading ones based on GLUE score and Size of parameters and Training Tokens.
+
 ### Comparison of Language Models
 Open Ai models
 Chat-gpt
