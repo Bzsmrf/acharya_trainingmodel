@@ -5,6 +5,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 import os
+import openai  # Import the openai module
 
 # Function to summarize text
 def summarize_text(texts, docsearch, chain):
@@ -12,8 +13,11 @@ def summarize_text(texts, docsearch, chain):
         summry = docsearch.similarity_search(" ")
         txt = chain.run(input_documents=summry, question="write summary in points within 150 words")
         return txt
-    except Exception as e:
-        st.error(f"Error during summarization: {str(e)}")
+    except openai.error.OpenAIError as e:
+        if "timeout" in str(e).lower():
+            st.error("Timeout error during summarization. Please try again.")
+        else:
+            st.error(f"Error during summarization: {str(e)}")
 
 # Function to answer question
 def answer_question(query, docsearch, chain):
@@ -21,8 +25,11 @@ def answer_question(query, docsearch, chain):
         docs = docsearch.similarity_search(query)
         txt = chain.run(input_documents=docs, question=query)
         return txt
-    except Exception as e:
-        st.error(f"Error during question answering: {str(e)}")
+    except openai.error.OpenAIError as e:
+        if "timeout" in str(e).lower():
+            st.error("Timeout error during question answering. Please try again.")
+        else:
+            st.error(f"Error during question answering: {str(e)}")
 
 # Main function
 def main():
