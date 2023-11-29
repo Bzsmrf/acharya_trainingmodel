@@ -1,4 +1,4 @@
-### Comparison Of Different LLMs
+### Comparison Of Different llms
 
 ### Introduction
 This report will justify my choice of a language model for Text Summarization. After conducting research on several available models, I have chosen chat-gpt 3.5 turbo for the following reasons:
