@@ -2,7 +2,7 @@
 
 ### [Get started](https://bzsmrf.github.io/Summerize/) 
 
-This is a web app to **Summarize long text documents** and **Ask question** on that document. 
+This is a web app to **Summarizes long text documents** and **Ask question** on that document. 
 <br> 
 Technologies used to built are: 
 <br>  
