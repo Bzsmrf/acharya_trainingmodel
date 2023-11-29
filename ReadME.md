@@ -1,6 +1,6 @@
 
 
-### [Get started](https://bzsmrf.github.io/Summerize/](https://bzsmrf.github.io/acharya_trainingmodel/) 
+### [Get started](https://bzsmrf.github.io/acharya_trainingmodel/) 
 
 This is a web app to **Summarizes long text documents** and **Ask question** on that document. 
 <br> 
