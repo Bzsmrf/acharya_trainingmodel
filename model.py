@@ -11,7 +11,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 import os
 
-# Function to summarize text
+# Function to summarize texts
 def summarize_text(texts, docsearch, chain):
     
     #This function takes a list of texts, a document search object, and a question answering chain as input.
